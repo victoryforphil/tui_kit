@@ -1,0 +1,25 @@
+[package]
+name = "tui_kit"
+version = "0.1.0"
+description = "Terminal UI primitives for Loki tooling"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/victoryforphil/tui_kit"
+
+[dependencies]
+anyhow = "1"
+crossterm = { version = "0.28", optional = true }
+thiserror = "2"
+
+nu-ansi-term = "0.50"
+unicode-width = "0.2"
+
+[features]
+default = ["cli"]
+cli = []
+tui = ["dep:crossterm"]
+
+[[bin]]
+name = "demo"
+path = "src/bin/demo.rs"
