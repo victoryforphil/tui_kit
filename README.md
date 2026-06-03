@@ -1,6 +1,6 @@
-# tui_kit
+# vfp_tuikit
 
-`tui_kit` is a small Rust library for terminal UI primitives.
+`vfp_tuikit` is a small Rust library for terminal UI primitives.
 
 - `cli` is the default feature set for inline output in scripts and pipes.
 - `tui` adds the fullscreen picker built on `crossterm`.
@@ -20,8 +20,8 @@ Version: `0.1.0`
 ## Example
 
 ```rust
-use tui_kit::cli::{ActionLine, Panel, Progress, render_table};
-use tui_kit::{RenderContext, Tone};
+use vfp_tuikit::cli::{ActionLine, Panel, Progress, render_table};
+use vfp_tuikit::{RenderContext, Tone};
 
 let ctx = RenderContext::default_stdout();
 println!("{}", ActionLine::new("INFO", "hello", Tone::Info).render(&ctx));

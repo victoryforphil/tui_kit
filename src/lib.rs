@@ -1,4 +1,4 @@
-//! `tui_kit` is a small terminal UI component library.
+//! `vfp_tuikit` is a small terminal UI component library.
 //!
 //! It exposes two feature sets:
 //! - `cli`: inline ANSI or plain-text renderers for scripts and pipes.

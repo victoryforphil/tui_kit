@@ -1,13 +1,13 @@
 ---
-title: tui_kit
+title: vfp_tuikit
 tags: [rust, terminal, tui, cli]
 status: active
 ---
-# tui_kit
+# vfp_tuikit
 
 ## Context
 
-`tui_kit` packages a small set of terminal UI primitives that can be reused in
+`vfp_tuikit` packages a small set of terminal UI primitives that can be reused in
 other Rust projects. The goal is to keep output styling and picker behavior in
 one crate instead of reimplementing them in each tool.
 

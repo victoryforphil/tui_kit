@@ -1,14 +1,14 @@
 use anyhow::Result;
 
-use tui_kit::cli::{render_table, ActionLine, Badge, Panel, Progress, Spacer, Summary};
-use tui_kit::{RenderContext, Tone};
+use vfp_tuikit::cli::{render_table, ActionLine, Badge, Panel, Progress, Spacer, Summary};
+use vfp_tuikit::{RenderContext, Tone};
 
 fn main() -> Result<()> {
     let ctx = RenderContext::default_stdout();
 
     println!(
         "{}",
-        ActionLine::new("INFO", "tui_kit demo", Tone::Info).render(&ctx)
+        ActionLine::new("INFO", "vfp_tuikit demo", Tone::Info).render(&ctx)
     );
     println!(
         "{}",
@@ -40,7 +40,7 @@ fn main() -> Result<()> {
 
 #[cfg(feature = "tui")]
 fn run_picker() -> Result<()> {
-    use tui_kit::tui::picker::{CliPicker, PickerItem, PickerOutcome};
+    use vfp_tuikit::tui::picker::{CliPicker, PickerItem, PickerOutcome};
 
     let items = vec![
         PickerItem::new("anchor", "Anchor - receives polls"),

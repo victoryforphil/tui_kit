@@ -1,5 +1,5 @@
 [package]
-name = "tui_kit"
+name = "vfp_tuikit"
 version = "0.1.0"
 description = "Terminal UI primitives for Loki tooling"
 edition = "2021"

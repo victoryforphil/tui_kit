@@ -1,11 +1,11 @@
 ---
 name: tui-kit
-description: Use when working on the tui_kit crate, example binary, or picker output helpers.
+description: Use when working on the vfp_tuikit crate, example binary, or picker output helpers.
 ---
 
-# tui_kit
+# vfp_tuikit
 
-Use this skill when editing or reviewing the standalone `tui_kit` crate.
+Use this skill when editing or reviewing the standalone `vfp_tuikit` crate.
 
 ## Workflow
 
@@ -18,4 +18,4 @@ Use this skill when editing or reviewing the standalone `tui_kit` crate.
 
 - `src/cli/` - inline output helpers.
 - `src/tui/picker/` - fullscreen picker.
-- `docs/designs/tui_kit.md` - architecture notes.
+- `docs/designs/vfp_tuikit.md` - architecture notes.

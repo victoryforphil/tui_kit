@@ -1,6 +1,6 @@
-# Agents Guide - tui_kit
+# Agents Guide - vfp_tuikit
 
-`tui_kit` is a standalone Rust crate for small terminal UI building blocks.
+`vfp_tuikit` is a standalone Rust crate for small terminal UI building blocks.
 
 ## Layout
 
